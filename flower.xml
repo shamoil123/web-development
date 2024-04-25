@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flowershop [
+    <!ELEMENT flowershop (flower*)>
+    <!ELEMENT flower (name, price)>
+    <!ELEMENT name (#PCDATA)>
+    <!ELEMENT price (#PCDATA)>
+]>
+<flowershop>
+    <flower>
+        <name>sunflower</name>
+        <price>Rs. 300</price>
+    </flower>
+    <flower>
+        <name>tulipe</name>
+        <price>Rs. 50</price>
+    </flower>
+    <flower>
+        <name>roses</name>
+        <price>Rs. 100</price>
+    </flower>
+    <flower>
+        <name>lilies</name>
+        <price>Rs. 70</price>
+    </flower>
+    <flower>
+        <name>jasmines</name>
+        <price>Rs. 200</price>
+    </flower>
+</flowershop>
